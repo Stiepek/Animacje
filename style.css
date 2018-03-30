@@ -1,0 +1,92 @@
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #666699;
+	color: white;
+}
+div  {
+	top: 20%;
+	margin-top: 5px;
+	padding-top: 25px;
+    width: 120px;
+    height: 50px;
+    background-color: #666699;
+    font-weight: bold;
+	position: relative;
+    animation: mymove 5s reverse;
+	text-align: center;
+	border-style: solid;
+	border-color: white;
+	font-size: 20px;
+	border-radius: 10px;
+}
+#ad1 {animation-timing-function: linear;}
+#ad2 {animation-timing-function: ease;}
+#ad3 {animation-timing-function: ease-in;}
+#ad4 {animation-timing-function: ease-out;}
+#ad5 {animation-timing-function: ease-in-out;}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 90%;}
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+header {
+	margin: 0px;
+	height: 170px;
+	background-color: #444466;
+}
+img {
+	margin: 10px;
+	transform: rotate(Ndeg);
+}
+h1 {
+	position: absolute;
+	right: 50%;
+	top: 0px;
+	font-size: 70px;
+}
+ul {
+position: absolute;
+float: right;
+width: 100%;
+padding: 0;
+margin: 0;
+margin-top: -45px;
+right: 10px;
+list-style: none;
+}
+li a {
+display: block;
+float: right;
+text-align: center;
+font-size: 1.2em;
+width: 130px;
+background-color: #444466;
+padding: 10px 15px;
+margin: 0px 1px 1px 0px;
+border: 1px solid white;
+border-radius: 3px 3px 0px 0px;
+border-bottom-color: #444466;
+}
+li a:hover {
+color: #444466;
+background: #a6a6c4;
+border: 1px solid white;
+border-bottom-color: #a6a6c4;
+}
+#lapka {
+	animation-play-state: paused;
+  font-size:250px;
+  border: 0px;
+  margin-left: -45%;
+}
+#czas {
+  text-align: center;
+  font-size: 40px;
+  margin-top:20px;
+}
